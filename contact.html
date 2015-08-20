@@ -21,13 +21,13 @@
                 <button class="open-menu-btn" type="button"></button>
                 <button class="close-menu-btn" type="button"></button>
                 <ul class="nav nav-pills">
-                    <li role="presentation"><a href="#">Portfolio</a></li>
-                    <li role="presentation"><a href="#">Clients</a></li>
-                    <li role="presentation"><a href="#">News</a></li>
-                    <li role="presentation"><a href="#">About me</a></li>
-                    <li role="presentation"><a href="#">Contact</a></li>
+                    <li role="presentation"><a href="portfolio.html">Portfolio</a></li>
+                    <li role="presentation"><a href="post.html">Clients</a></li>
+                    <li role="presentation"><a href="blog.html">News</a></li>
+                    <li role="presentation"><a href="about.html">About me</a></li>
+                    <li role="presentation"><a href="contact.html">Contact</a></li>
                 </ul>
-                <a class="logo">
+                <a href="index.html" class="logo">
                     <img src="http://placehold.it/100x100" alt="logo" width="100" height="100"> 
                 </a>
                 <ul class="header-social">
@@ -42,17 +42,17 @@
         </header>
 		
 		<main class="main-content">
-            <div class="wrapper-750 main container">
+            <div class="wrapper-750 contact-page container">
                 <div class="work-with-me col-md-6">
                     <h3>Want work with me?</h3>
                     <form>
                         <div class="form-group">
                             <label for="exampleInputName">Your name (required)</label>
-                            <input type="text" class="form-control" id="exampleInputName" placeholder="">
+                            <input type="text" class="form-control" id="exampleInputName" placeholder="" required>
                         </div>
                         <div class="form-group">
                             <label for="exampleInputEmail">Your email (required)</label>
-                            <input type="email" class="form-control" id="exampleInputEmail" placeholder="">
+                            <input type="email" class="form-control" id="exampleInputEmail" placeholder="" required>
                         </div>
                         <div class="form-group">
                             <label for="exampleInputSubject">Subject</label>
@@ -62,13 +62,14 @@
                             <label for="exampleInputText">Your Message</label>
                             <textarea class="form-control" id="exampleInputText" rows="10"></textarea>
                         </div>
-                        <button type="submit" class="btn btn-default">Send</button>
+                        <button type="submit" class="btn btn-default contact-send-btn">Send</button>
                     </form>
                 </div>
                 <div class="contacts-block col-md-6">
+                    <h3>Info</h3>
                     <div class="contacts-block-address"><span class="bullet-icon"></span>124 Avenue Street, Los Angeles, California</div>
-                    <div class="contacts-block-phone"><span class="phone-icon"></span>+ 00 123 456 7890</div>
-                    <div class="contacts-block-mail"><span class="mail-icon"></span>info&#64;square.com</div>
+                    <div class="contacts-block-address"><span class="phone-icon"></span>+ 00 123 456 7890</div>
+                    <div class="contacts-block-address"><span class="mail-icon"></span>info&#64;square.com</div>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda quia laborum magni deleniti dolorem?</p>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis esse quisquam quibusdam beatae iusto, cupiditate maiores atque excepturi, eveniet minima obcaecati laborum.</p>
                     <a href="" class="contacts-block-logo"><img src="http://placehold.it/100x100" alt=""></a>
@@ -76,17 +77,17 @@
             </div>
             <div class="wrapper">
                 <div class="brands-block container">
-                    <a href="" class="col-md-3 brands"><img src="http://placehold.it/285x70" alt=""></a>
-                    <a href="" class="col-md-3 brands"><img src="http://placehold.it/285x70" alt=""></a>
-                    <a href="" class="col-md-3 brands"><img src="http://placehold.it/285x70" alt=""></a>
-                    <a href="" class="col-md-3 brands"><img src="http://placehold.it/285x70" alt=""></a>
+                    <a href="" class="col-md-3 brands"><img src="img/brand-phash.png" alt="brands"></a>
+                    <a href="" class="col-md-3 brands"><img src="img/brand-man.png" alt="brands"></a>
+                    <a href="" class="col-md-3 brands"><img src="img/brand-hassel.png" alt="brands"></a>
+                    <a href="" class="col-md-3 brands"><img src="img/brand-bron.png" alt="brands"></a>
                 </div>
             </div>
         </main>
 		
 		<footer class="main-footer">
             <div class="wrapper footer">
-                <div class="designers">Created by 2ndself.com, with &hearts; exclusive for theuncreativelab.com</div>
+                <div class="designers">Created by 2ndself.com, with &hearts;<br> exclusive for theuncreativelab.com</div>
                 <div class="copyrights">&copy; 2015 Square. All rights Reserved.</div> 
             </div>
         </footer> 

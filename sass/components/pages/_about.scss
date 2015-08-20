@@ -1,0 +1,71 @@
+.about-me {
+    margin-bottom: 120px;
+    &-article {
+        padding: 80px 15px 60px 60px;
+
+        h1 {
+            @include reset-size;
+            margin-bottom: 20px;
+            font-size: $font-size-large;
+            font-size: 18px;
+            text-transform: uppercase;
+            font-weight: bold;
+        }
+        p {
+            font-size: $font-size-small;
+        }
+    }
+}
+.timeline {
+    margin-bottom: 120px;
+    
+    h2 {
+        @include reset-size;
+        font-size: $font-size-large;
+        color: $gold-base;
+    }
+    p {
+        margin-right: 35px;
+        padding-bottom: 10px;
+        border-bottom: 1px solid $gold-light;
+        &:last-child {
+            border-bottom: 0;
+        }
+    }
+}
+.span-red {
+    color: #ff0000;
+}
+
+.clients {
+    margin-bottom: 170px;
+    
+    h4 {
+        text-transform: uppercase;
+    }
+    li {
+        font-size: $font-size-small;
+    }
+}
+.testimonials-about {
+    padding-top: 100px;
+    text-align: center;
+    .testimonials-quote-icon {
+        display: block;
+        border: 1px solid;
+        width: 30px;
+        height: 30px;
+        margin: auto;
+    }
+    &-quote {
+        padding: 15px 20px 0px 20px;
+        font-size: $font-size-large;
+        font-weight: lighter;
+        font-style: italic;
+        color: $gray-light;
+        border: 0;
+    }
+    .testimonials-name {
+        font-weight: bold;
+    }
+}
