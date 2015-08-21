@@ -7,9 +7,12 @@
 .open-menu-btn {
     width: 50px;
     height: 50px;
+    border: 0;
+    background: url("../img/spritesheet.png") no-repeat -15px -918px;
 }
 .close-menu-btn {
     display: none;
+    background: url("../img/spritesheet.png") no-repeat -15px -838px;
 }
 .nav {
     margin-left: 20px;
@@ -55,12 +58,29 @@
         vertical-align: top;
         margin-left: 15px;
         
+        &:nth-child(1) a {
+            background: url("../img/spritesheet.png") no-repeat -12px -143px;    
+        }
+        &:nth-child(2) a {
+            background: url("../img/spritesheet.png") no-repeat -15px -749px;
+        }
+        &:nth-child(3) a {
+            background: url("../img/spritesheet.png") no-repeat -14px -310px;
+        }
+        &:nth-child(4) a {
+            background: url("../img/spritesheet.png") no-repeat -14px -184px;
+        }
+        &:nth-child(5) a {
+            background: url("../img/spritesheet.png") no-repeat -15px -225px;
+        }
+        &:nth-child(6) a {
+            background: url("../img/spritesheet.png") no-repeat -15px -351px;
+        }
+        
         a {
             display: block;
             width: 15px;
             height: 15px;
-            border: 1px solid;
         }
-    }
-    
+    } 
 }

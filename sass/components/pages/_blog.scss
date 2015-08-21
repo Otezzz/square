@@ -55,15 +55,22 @@
                 left: 15px;
                 width: 15px;
                 height: 15px;
-                outline: 1px solid;
             }
         }
         
         .blog-item-date {
             left: 10px;
+            
+            &::before {
+                background: url("../img/spritesheet.png") no-repeat -14px -1244px;
+            }
         }
         .blog-item-comment {
             right: -15px;
+            
+            &::before {
+                background: url("../img/spritesheet.png") no-repeat -15px -1285px;
+            }
         }
     }
     hr {
@@ -136,11 +143,11 @@
     bottom: 50px;
     width: 50px;
     height: 50px;
-    background: #362f2f;
+    background: #362f2f url("../img/spritesheet.png") no-repeat 4px -1308px;
     transition: 0.2s;
     
     &:hover {
-        background: #000;   
+        background: darken($btn-default-bg, 10%) url("../img/spritesheet.png") no-repeat 4px -1308px;   
     }
     &:active {
         transform: scale(0.9);

@@ -56,14 +56,21 @@
             display: block;
             width: 15px;
             height: 15px;
-            outline: 1px solid;
         }
         
         p {
             font-size: $font-size-small;
         }
-        
     }
+}
+.bullet-icon {
+    background: url("../img/spritesheet.png") no-repeat -11px -14px;
+}
+.phone-icon {
+    background: url("../img/spritesheet.png") no-repeat -13px -570px;
+}
+.mail-icon {
+    background: url("../img/spritesheet.png") no-repeat -14px -350px;
 }
 .contacts-block-logo {
     display: block;

@@ -16,13 +16,13 @@
     }
 }
 .gallery1 {
-    display: none;
+    display: block;
 }
 .gallery2 {
     display: none;
 }
 .gallery3 {
-    display: block;
+    display: none;
 }
 .gallery1-item,
 .gallery2-item,
@@ -70,8 +70,7 @@
 }
 
 .scale-icon {
-    
     width: 30px;
     height: 30px;
-    border: 1px solid red;
+    background: url("../img/spritesheet.png") no-repeat -11px -387px;
 }

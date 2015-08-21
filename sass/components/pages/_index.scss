@@ -45,10 +45,26 @@
     top: 120px;
     width: 33px;
     height: 33px;
-    background: $btn-default-bg;
+    
+    &.left {
+        background: $btn-default-bg url("../img/spritesheet.png") no-repeat -1px -1155px;
+        
+        &:hover {
+        background: darken($btn-default-bg, 10%) url("../img/spritesheet.png") no-repeat -1px -1155px;
+        }
+    }
     
     &.right {
-        right: 0;   
+        right: 0; 
+        background: $btn-default-bg url("../img/spritesheet.png") no-repeat -3px -1194px;
+        
+        &:hover {
+        background: darken($btn-default-bg, 10%) url("../img/spritesheet.png") no-repeat -3px -1194px;
+        }
+    }
+    
+    &:hover {
+        background: darken($btn-default-bg, 2%);
     }
 }
 .number-photo {
@@ -64,13 +80,22 @@
     width: 15px;
     height: 15px;
     margin-right: 88px;
-    border: 1px solid black;
     
     &:last-child {
         margin-right: 10px;
     }
     
     &:hover{
+    }
+    
+    &:nth-child(1) {
+        background: url("../img/spritesheet.png") no-repeat -16px -1040px;
+    }
+    &:nth-child(2) {
+        background: url("../img/spritesheet.png") no-repeat -15px -998px;
+    }
+    &:nth-child(3) {
+        background: url("../img/spritesheet.png") no-repeat -15px -1082px;
     }
 }
 
@@ -163,10 +188,13 @@
     display: block;
     width: 15px;
     height: 15px;
-    outline: 1px solid black;
+}
+.bottom-phone::before {
+    background: url("../img/spritesheet.png") no-repeat -15px -569px;
 }
 .bottom-email::before {
     top: 68px;
+    background: url("../img/spritesheet.png") no-repeat -15px -350px;
 }
 .bottom-social {
     @include list-style-reset;
@@ -176,11 +204,26 @@
         margin-right: 10px;
         font-size: 0;
         
+        &:nth-child(1) a {
+            background: url("../img/spritesheet.png") no-repeat -12px -143px;    
+        }
+        &:nth-child(2) a {
+            background: url("../img/spritesheet.png") no-repeat -15px -749px;
+        }
+        &:nth-child(3) a {
+            background: url("../img/spritesheet.png") no-repeat -14px -310px;
+        }
+        &:nth-child(4) a {
+            background: url("../img/spritesheet.png") no-repeat -14px -184px;
+        }
+        &:nth-child(5) a {
+            background: url("../img/spritesheet.png") no-repeat -15px -225px;
+        }
+        
         a {
             display: block;
             width: 15px;
             height: 15px;
-            outline: 1px solid;
         }
     }
 }
@@ -188,10 +231,10 @@
     
     &-tweet-icon {
     display: block;
-    border: 1px solid;
     width: 30px;
     height: 30px;
     margin: auto;
+    background: url("../img/spritesheet.png") no-repeat -12px -786px;
     }
     
     &-quote {
